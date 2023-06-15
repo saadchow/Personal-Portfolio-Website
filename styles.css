@@ -169,17 +169,21 @@ margin-right: 12px;
 }
 
 .projects-page,
+.project,
 .education-page {
  display:flex; 
  flex-direction :column; 
  justify-content:center; 
- align-items:flex-start;  
+ align-items:flex-start; 
+ text-decoration: none;
 }
 
 .projects-page h2,
+.project,
 .education-page h2 {
  text-align:left;  
- margin-left :20%;  
+ margin-left :20%; 
+ text-decoration: none;
 }
 
 .projects-page h2 {color:white;}
@@ -199,6 +203,7 @@ margin-right: 12px;
 .project h3,
 .education h3 {
   margin-top :0;
+  text-decoration: none;
 }
 
 .projects-page {
